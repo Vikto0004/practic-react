@@ -1,7 +1,7 @@
 import { Grid } from '../Grid/Grid';
 import { TodoListItem } from '../TodoListItem/TodoListItem';
 
-export const TodoList = ({ data, onDeleteTodo }) => {
+export const TodoList = ({ data, onDeleteTodo, onEditTodo }) => {
   return (
     <Grid>
       {data.map((todo, index) => (
@@ -10,6 +10,7 @@ export const TodoList = ({ data, onDeleteTodo }) => {
           todo={todo}
           index={index}
           onDeleteTodo={onDeleteTodo}
+          onEditTodo={() => onEditTodo(todo)}
         />
       ))}
     </Grid>

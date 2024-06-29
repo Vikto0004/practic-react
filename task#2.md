@@ -25,14 +25,14 @@ import { Text } from 'components';
 
 ```jsx
 <form className={style.form}>
-  <button className={style.button} type="submit">
-    <FiSearch size="16px" />
+  <button className={style.button} type='submit'>
+    <FiSearch size='16px' />
   </button>
 
   <input
     className={style.input}
-    placeholder="What do you want to write?"
-    name="search"
+    placeholder='What do you want to write?'
+    name='search'
     required
     autoFocus
   />
@@ -76,11 +76,11 @@ import { Text } from 'components';
 ```jsx
 <GridItem>
   <div className={style.box}>
-    <Text textAlign="center" marginBottom="20">
+    <Text textAlign='center' marginBottom='20'>
       TODO #1
     </Text>
     <Text>Some description</Text>
-    <button className={style.deleteButton} type="button">
+    <button className={style.deleteButton} type='button'>
       <RiDeleteBinLine size={24} />
     </button>
   </div>
@@ -124,15 +124,15 @@ import { Text } from 'components';
 ```jsx
 <GridItem>
   <div className={style.box}>
-    <Text textAlign="center" marginBottom="20">
+    <Text textAlign='center' marginBottom='20'>
       TODO #1
     </Text>
     <Text>Some description</Text>
-    <button className={style.deleteButton} type="button">
+    <button className={style.deleteButton} type='button'>
       <RiDeleteBinLine size={24} />
     </button>
 
-    <button className={style.editButton} type="button">
+    <button className={style.editButton} type='button'>
       <RiEdit2Line size={24} />
     </button>
   </div>
@@ -145,18 +145,18 @@ import { Text } from 'components';
 
 ```jsx
 <form className={style.form}>
-  <button className={style.submitButton} type="submit">
-    <RiSaveLine color="green" size="16px" />
+  <button className={style.submitButton} type='submit'>
+    <RiSaveLine color='green' size='16px' />
   </button>
 
-  <button className={style.editButton} type="button">
-    <MdOutlineCancel color="red" size="16px" />
+  <button className={style.editButton} type='button'>
+    <MdOutlineCancel color='red' size='16px' />
   </button>
 
   <input
     className={style.input}
-    placeholder="What do you want to write?"
-    name="text"
+    placeholder='What do you want to write?'
+    name='text'
     required
     defaultValue={defaultValue}
     autoFocus
